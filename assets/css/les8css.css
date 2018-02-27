@@ -1,0 +1,342 @@
+/* $('.header-slider').slick({
+  dots: true
+  }); */
+
+
+body  {
+       font-family: 'League Gothic', arial;
+  }
+* {
+  padding: 0;
+  margin: 0;
+}
+ .slide1  .comment h4 {
+  width: 240px;
+  height: 80px;
+  margin-left: 330px;
+  margin-top: 70px;
+  position: absolute;
+}
+/* .slider1 .comment {
+  height: 80px;
+  position: absolute;
+} */
+.slide1 {
+  height: 250px;
+  position: absolute;
+}
+.slider1 {
+
+  margin-top: 170px;
+  margin-left: 360px;
+  position: absolute;
+  width: 150px;
+  height: 80px;
+}
+.slide1 p {
+  position: absolute;
+}
+.slide {
+  height: 250px;
+}
+
+.slide-text {
+  float: left;
+  width: 300px;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+.slide-text__title {
+  font-size: 28px;
+  color: #fff;
+}
+.slide-text__subtitle {
+  color: #edbfff;
+}
+.slide-text__description {
+  color: #fff;
+}
+.slide-image-wrapper {
+  float: right;
+  margin-right: 200px;
+}
+.slider .slide-image-wrapper--blur {
+  /* position: relative; */
+  margin-right: 250px;
+  margin-top: 120px;
+}
+.slider .slide-image-wrapper--in-front {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 50px;
+
+}
+header .logo {
+  display: flex;
+  justify-content: flex-start;
+  font-style: bold;
+  font-size: 28px;
+  margin-left: 300px;
+
+}
+header .logo span {
+  color: #fff;
+  margin-top: 30px;
+
+}
+header .logo > .er  {
+  color: #493452;
+
+}
+header {
+  background: url('../img/bg.png') 100% 100% no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: 512px;
+}
+header .bcg {
+  margin-top: 80px;
+  display: block;
+  position: absolute;
+  background-color: #00000035;
+  width: 100%;
+  height: 300px;
+
+}
+
+
+ header .menu ul {
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   margin-left: 400px;
+
+
+ }
+ header .menu li {
+   display: block;
+   margin: 10px;
+   color: #fff;
+   font-size: 14px;
+
+
+ }
+header .menu a {
+   text-decoration: none;
+}
+header .menu a li  {
+   margin-top: -20px;
+
+}
+header .rtext {
+
+  color: #fff;
+  margin-left: 300px;
+  width: 330px;
+  height: 50px;
+  margin-top: 150px;
+}
+header .rtext h2 {
+  font-size: 16px;
+  color: #edbfff;
+}
+header .iphone {
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 800px;
+  z-index: 3;
+}
+header .iphonebg {
+  display: block;
+  margin-left: 750px;
+  margin-top: -70px;
+  z-index: 0;
+  position: absolute;
+}
+section .bcg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb60b3+0,745083+0,322539+100,7f006c+100,a80077+100,db36a4+100 */
+background: rgb(203,96,179); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(203,96,179,1) 0%, rgba(116,80,131,1) 0%, rgba(50,37,57,1) 100%, rgba(127,0,108,1) 100%, rgba(168,0,119,1) 100%, rgba(219,54,164,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(203,96,179,1) 0%,rgba(116,80,131,1) 0%,rgba(50,37,57,1) 100%,rgba(127,0,108,1) 100%,rgba(168,0,119,1) 100%,rgba(219,54,164,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(203,96,179,1) 0%,rgba(116,80,131,1) 0%,rgba(50,37,57,1) 100%,rgba(127,0,108,1) 100%,rgba(168,0,119,1) 100%,rgba(219,54,164,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=0 ); /* IE6-9 */
+height: 200px;
+border-top: solid #000 1px;
+}
+section .head ul {
+  margin-top: -250px;
+  display: flex;
+  justify-content:center;
+    flex-direction: row;
+}
+section .head li {
+  display: block;
+  margin: 80px;
+  color: #fff;
+}
+section .img, .img1, .img2 ul {
+  display: flex;
+}
+section .img li {
+    display: block;
+    margin-left: 330px;
+    margin-top: -100px;
+}
+section .img1 li {
+    display: block;
+    margin-left: 580px;
+    margin-top: -100px;
+}
+section .img2 li {
+    display: block;
+    margin-left: 835px;
+    margin-top: -100px;
+}
+section .text, .text1, .text2 ul{
+  display: flex;
+  justify-content:center;
+  align-items: stretch;
+  position: absolute;
+  color: lightgrey;
+  margin-left: 47px;
+  margin-top: 30px;
+  font-style: ;
+
+}
+section .text li {
+    width: 110px;
+    display: block;
+    margin-left: 330px;
+    margin-top: -100px;
+}
+section .text1 li {
+    width: 110px;
+    display: block;
+    margin-left: 580px;
+    margin-top: -100px;
+}
+section .text2 li {
+    width: 110px;
+    display: block;
+    margin-left: 835px;
+    margin-top: -100px;
+}
+section .rm ul {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 40px;
+  position: relative;
+
+}
+section .rm li {
+  display: block;
+  width: 250px;
+  text-align: center;
+}
+section #sec1 {
+  background-color: #f9f9f9;
+  border-bottom: solid lightgrey 1px;
+  width: 100%;
+  height: 280px;
+  margin-top: 16px;
+}
+.layer60 li {
+  display: block;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.face {
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 70px;
+}
+
+.here {
+  color: #edbfff;
+}
+section .subtitle {
+  position: absolute;
+  display: block;
+  margin-left: 700px;
+  margin-top: 45px;
+  height: 100px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+section .imgthrd {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-left: 710px;
+  margin-top: 67px;
+
+}
+section .imgthrd li {
+  display: block;
+  line-height: 5px;
+}
+section .subtitle  p {
+  margin-top: 15px;
+  margin-left: 50px;
+  line-height: 2px;
+}
+section .subtitle .rmh {
+  float: right;
+  padding-top:   15px;
+}
+section .bcg1 {
+  background-color: #f9f9f9;
+  border-bottom: solid lightgrey 1px;
+  width: 100%;
+  height: 80px;
+}
+section .h2 {
+  margin-top: -60px;
+  text-align: center;
+}
+footer {
+  background-image: url('../img/bcg2.png');
+  height: 230px;
+  background-size:  auto;
+  margin-top: 14px;
+  }
+ .bcg2, .logo2,
+ .textd1, .textd2  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.logo2  {
+  font-size: 18px;
+}
+h3 {
+  font-size: 14px;
+  color: #000;
+}
+.er1 {
+  color: #b9b9b9;
+}
+.logo2,
+.textd1, .textd2{
+  display: block;
+  width: 150px;
+  height: 80px;
+  margin: 50px;
+  margin-top: 40px;
+  line-height: 15px;
+
+}
+.textd, .textd1, .textd2{
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #787878;
+}
+footer .logo2 .copy {
+  font-style: italic;
+  font-size: 12px;
+  color: #b9b9b9;
+}
